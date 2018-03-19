@@ -124,4 +124,10 @@
   <data name="Custom_Icon_Design_Flatastic_5_Binary_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Custom-Icon-Design-Flatastic-5-Binary-tree.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="howto_d1rep" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\howto-d1rep.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="howto_prepro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\howto-prepro.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

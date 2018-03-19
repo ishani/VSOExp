@@ -6,48 +6,58 @@ using System.Threading.Tasks;
 
 namespace VSOExp
 {
-  public class LayoutTreeNode : Aga.Controls.Tree.Node
-  {
-    private string _size;
-    public virtual string Size
+    public class LayoutTreeNode : Aga.Controls.Tree.Node
     {
-      get { return _size; }
-      set
-      {
-        if (_size != value)
+        private string _size;
+        public virtual string Size
         {
-          _size = value;
-          NotifyModel();
+            get { return _size; }
+            set {
+                if ( _size != value )
+                {
+                    _size = value;
+                    NotifyModel();
+                }
+            }
         }
-      }
-    }
 
-    private string _padding;
-    public virtual string Padding
-    {
-      get { return _padding; }
-      set
-      {
-        if (_padding != value)
+        private string _padding;
+        public virtual string Padding
         {
-          _padding = value;
-          NotifyModel();
+            get { return _padding; }
+            set {
+                if ( _padding != value )
+                {
+                    _padding = value;
+                    NotifyModel();
+                }
+            }
         }
-      }
-    }
 
-    private string _type;
-    public virtual string TypeName
-    {
-      get { return _type; }
-      set
-      {
-        if (_type != value)
+        private string _gaps;
+        public virtual string Gaps
         {
-          _type = value;
-          NotifyModel();
+            get { return _gaps; }
+            set {
+                if ( _gaps != value )
+                {
+                    _gaps = value;
+                    NotifyModel();
+                }
+            }
         }
-      }
+
+        private string _type;
+        public virtual string TypeName
+        {
+            get { return _type; }
+            set {
+                if ( _type != value )
+                {
+                    _type = value;
+                    NotifyModel();
+                }
+            }
+        }
     }
-  }
 }
